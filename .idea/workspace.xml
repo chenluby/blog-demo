@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc02c8f8-0141-403a-a553-685a4aa05345" name="Default Changelist" comment="" />
+    <list default="true" id="bc02c8f8-0141-403a-a553-685a4aa05345" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +57,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="dummy://restClient/response7.txt" root0="SKIP_INSPECTION" />
   </component>
@@ -72,6 +78,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZNtiTtRZUaMkOTSFZGONhl8dCR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,6 +94,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -120,11 +128,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\File\Code\Blog-Demo\demo-2" />
       <recent name="D:\File\Code\Blog-Demo\demo-2\src\main\resources" />
       <recent name="D:\File\Code\Blog-Demo\demo-2\src\main\java\blog\demo\service\impl" />
       <recent name="D:\File\Code\Blog-Demo\demo-2\src\main\java\blog\demo\service" />
       <recent name="D:\File\Code\Blog-Demo\demo-2\src\main\java\blog\demo\mapper" />
-      <recent name="D:\File\Code\Blog-Demo\demo-2\src\main\java\blog\demo\entity" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -314,7 +322,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584691506514</updated>
-      <workItem from="1584691510477" duration="17307000" />
+      <workItem from="1584691510477" duration="17894000" />
     </task>
     <servers />
   </component>
