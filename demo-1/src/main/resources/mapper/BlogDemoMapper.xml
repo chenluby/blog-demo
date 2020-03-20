@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="blog.demo.mapper.BlogDemoMapper">
+    <resultMap id="BaseResultMap" type="blog.demo.entity.BlogDemo">
+        <id column="bd_id" jdbcType="INTEGER" property="bdId"/>
+        <result column="bd_name" jdbcType="VARCHAR" property="bdName"/>
+        <result column="bd_add_time" javaType="DATE" property="bdAddTime"/>
+        <result column="bd_update_time" jdbcType="DATE" property="bdUpdateTime"/>
+        <result column="bd_logic_delete" jdbcType="INTEGER" property="bdLogicDelete"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    bd_id, bd_name,bd_add_time,bd_update_time,bd_logic_delete
+  </sql>
+    <!--查询所有-->
+    <select id="selectByAll" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM blog_demo
+    </select>
+
+</mapper>
