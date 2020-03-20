@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc02c8f8-0141-403a-a553-685a4aa05345" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -62,6 +65,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="dummy://restClient/response7.txt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -188,7 +194,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BlogDemoControllerTests.addBlogDemo">
+  <component name="RunManager" selected="Spring Boot.demo-1">
     <configuration name="GenCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="blog.demo.util.GenCodeUtils" />
       <module name="demo-2" />
@@ -303,6 +309,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
@@ -322,7 +333,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584691506514</updated>
-      <workItem from="1584691510477" duration="17894000" />
+      <workItem from="1584691510477" duration="18176000" />
     </task>
     <servers />
   </component>
@@ -357,25 +368,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="65" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584694618430" />
-    <state width="1301" height="258" key="GridCell.Tab.0.bottom" timestamp="1584728943231">
+    <state width="1301" height="258" key="GridCell.Tab.0.bottom" timestamp="1584729768724">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1301" height="258" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1584728943231" />
+    <state width="1301" height="258" key="GridCell.Tab.0.bottom/0.0.1344.800@0.0.1344.800" timestamp="1584729768724" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584696498536" />
-    <state width="1301" height="258" key="GridCell.Tab.0.center" timestamp="1584728943231">
+    <state width="1301" height="258" key="GridCell.Tab.0.center" timestamp="1584729768723">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1301" height="258" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1584728943231" />
+    <state width="1301" height="258" key="GridCell.Tab.0.center/0.0.1344.800@0.0.1344.800" timestamp="1584729768723" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584696498535" />
-    <state width="1301" height="258" key="GridCell.Tab.0.left" timestamp="1584728943231">
+    <state width="1301" height="258" key="GridCell.Tab.0.left" timestamp="1584729768723">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1301" height="258" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1584728943231" />
+    <state width="1301" height="258" key="GridCell.Tab.0.left/0.0.1344.800@0.0.1344.800" timestamp="1584729768723" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584696498534" />
-    <state width="1301" height="258" key="GridCell.Tab.0.right" timestamp="1584728943231">
+    <state width="1301" height="258" key="GridCell.Tab.0.right" timestamp="1584729768724">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1301" height="258" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1584728943231" />
+    <state width="1301" height="258" key="GridCell.Tab.0.right/0.0.1344.800@0.0.1344.800" timestamp="1584729768724" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584696498535" />
     <state width="1007" height="344" key="GridCell.Tab.1.bottom" timestamp="1584728512492">
       <screen x="0" y="0" width="1344" height="800" />
