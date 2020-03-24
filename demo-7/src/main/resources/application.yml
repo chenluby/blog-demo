@@ -1,0 +1,17 @@
+server:
+  #端口
+  port: 8086
+  servlet:
+    #应用程序上下文路径
+    context-path: /blog
+---
+#指定环境
+spring:
+  profiles:
+    active: local
+
+---
+#指定环境
+spring:
+  profiles:
+    active: dev
