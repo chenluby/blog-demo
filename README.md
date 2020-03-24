@@ -4,3 +4,4 @@
 - demo-4 Spring的Aop五种通知
 - demo-5 SpringBoot集成Redis发布订阅
 - demo-6 SpringBoot参数验证
+- demo-7 集成文档Swagger2
