@@ -1,3 +1,5 @@
 - demo-1 SpringBoot集成Mybatis
 - demo-2 SpringBoot集成MybatisPlus
 - demo-3 SpringBoot集成Redis
+- demo-4 Spring的Aop五种通知
+- demo-5 SpringBoot集成Redis发布订阅
