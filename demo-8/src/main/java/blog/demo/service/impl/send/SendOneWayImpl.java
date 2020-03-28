@@ -16,6 +16,6 @@ import org.springframework.stereotype.Service;
 public class SendOneWayImpl implements RocketMQListener<String> {
     @Override
     public void onMessage(String message) {
-        log.info("SendOneWayImpl "+message);
+        log.info("SendOneWayImpl{}", message);
     }
 }

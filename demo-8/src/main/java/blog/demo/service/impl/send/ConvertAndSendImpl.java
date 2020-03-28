@@ -15,7 +15,7 @@ public class ConvertAndSendImpl implements RocketMQListener<String> {
 
     @Override
     public void onMessage(String message) {
-        log.info("ConvertAndSendImpl:" +message);
+        log.info("ConvertAndSendImpl:{}", message);
     }
 
 }

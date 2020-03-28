@@ -16,6 +16,6 @@ import org.springframework.stereotype.Service;
 public class AsyncSendImpl implements RocketMQListener<String> {
     @Override
     public void onMessage(String message) {
-        log.info("AsyncSendImpl: "+ message);
+        log.info("AsyncSendImpl: {}", message);
     }
 }

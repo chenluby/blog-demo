@@ -16,6 +16,6 @@ import org.springframework.stereotype.Service;
 public class SyncSendOrderlyImpl implements RocketMQListener<String> {
     @Override
     public void onMessage(String message) {
-        log.info("SyncSendOrderlyImpl:"+message);
+        log.info("SyncSendOrderlyImpl:{}", message);
     }
 }
