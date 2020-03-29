@@ -6,3 +6,4 @@
 - demo-6 SpringBoot参数验证
 - demo-7 集成文档Swagger2
 - demo-8 SpringBoot集成RocketMQ
+- demo-9 SpringBoot集成Docker
