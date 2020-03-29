@@ -2,6 +2,8 @@ package blog.demo.controller;
 
 import blog.demo.entity.BlogDemo;
 import blog.demo.service.BlogDemoService;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -30,7 +32,16 @@ public class BlogDemoController {
         //null为没有构造条件，即查询全部的，因为3.3.0版本以上会自动配置逻辑删除(实体必须有 @TableLogic注解)，所以只查等于0的数据处理。
         return blogDemoService.getBaseMapper().selectList(null);
     }
-
+    /**
+     * 自定义查询分页数据
+     *
+     * @return json结果集
+     */
+    @GetMapping("getPage")
+    public IPage<BlogDemo> getPage() {
+        //查询第一页2条数据
+        return blogDemoService.getPage(1,2);
+    }
     /**
      * 新增数据，测试新增填充
      *
