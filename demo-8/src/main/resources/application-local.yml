@@ -1,5 +1,5 @@
 rocketmq:
   producer:
     group: consumer-demo-1
+  #mq的nameserver地址
   name-server: 127.0.0.1:9876
-

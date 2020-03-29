@@ -19,17 +19,12 @@
     </properties>
 
     <dependencies>
+        <!--web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-     <!--   &lt;!&ndash;rocket&ndash;&gt;
-        &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client &ndash;&gt;
-        <dependency>
-            <groupId>org.apache.rocketmq</groupId>
-            <artifactId>rocketmq-client</artifactId>
-            <version>4.7.0</version>
-        </dependency>-->
+
         <!--rocketmq-->
         <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-spring-boot-starter -->
         <dependency>
