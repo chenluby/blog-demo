@@ -2,6 +2,8 @@
 FROM  openjdk:8
 #用于执行后面跟着的命令行命令
 RUN mkdir /app
+#设置时区
+RUN echo 'Asia/Shanghai' >/etc/timezone
 #指定工作目录
 WORKDIR /app
 #自动复制并解压到 <目标路径>
