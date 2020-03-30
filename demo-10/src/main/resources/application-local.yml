@@ -1,0 +1,19 @@
+#数据源配置
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test_blog?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#mybatis配置
+mybatis:
+  #MyBatis的映射文件的位置，resource的mapper下的所有Mapper.xml结尾的文件
+  mapper-locations: classpath:mapper/*Mapper.xml
+  #包搜索类型别名
+  type-aliases-package: blog.demo.entity
+  #执行SQL打印
+  configuration:
+    #开启MyBatis的二级缓存
+    cache-enabled: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
