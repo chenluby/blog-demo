@@ -12,8 +12,8 @@ mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
   #包搜索类型别名
   type-aliases-package: blog.demo.entity
-  #执行SQL打印
   configuration:
     #开启MyBatis的二级缓存
     cache-enabled: true
+    #执行SQL打印
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
