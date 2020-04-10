@@ -28,4 +28,5 @@ public class Person implements Serializable {
      * 城市表(city)主键
      */
     private Integer cId;
+
 }

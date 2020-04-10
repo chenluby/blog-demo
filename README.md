@@ -13,3 +13,4 @@
 - demo-8  SpringBoot集成RocketMQ
 - demo-9  SpringBoot集成Docker
 - demo-10 SpringBoot集成Mybatis动态SQL,一对多，多对一的例子
+- demo-11 SpringBoot集成Logstash
